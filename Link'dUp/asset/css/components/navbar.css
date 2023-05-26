@@ -1,0 +1,95 @@
+nav{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.i_nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    justify-items: auto;
+    margin-top: 5px;
+}
+.i_nav .haut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    width: auto;
+    height: 70px;
+    margin: 2%;
+}
+
+.parametre{
+    width: 200px;
+    display: flex;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 1rem;
+}
+
+
+#log{
+    position: relative;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#singn{
+    position: relative;
+    color: bisque;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background-color: #6088d7;
+}
+
+
+@media screen and (max-width: 767px) {
+    nav {
+    width: 100%;
+    }
+    .i_nav {
+        display: none;
+        flex-direction: column;
+        margin-left: 0;
+        justify-items: center;
+        margin-top: 0;
+    }
+
+    .parametre {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+
+    #log {
+        
+        padding: 10px 10px;
+        font-size: 10px;
+        margin: 2px 1px;
+        
+        }
+        
+        #singn {
+        padding: 10px 10px;
+        font-size: 14px;
+        margin: 2px 3px;
+        }
+  }
+  

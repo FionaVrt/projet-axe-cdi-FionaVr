@@ -1,0 +1,20 @@
+#confirmation-panel{
+    display: none;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#delete-button{
+    z-index: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #delete-button {
+      font-size: 16px; /* Taille de la poubelle pour les écrans plus petits */
+    }
+  }
